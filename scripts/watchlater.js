@@ -1,5 +1,5 @@
 const BASE_URL = 'https://vivacious-short-battery.glitch.me/movies';
-const WATCH_LATER_URL = `${BASE_URL}/watchlater`;
+const WATCH_LATER_URL = `${https://vivacious-short-battery.glitch.me}/watchlater`;
 
 // Display Watch Later movies
 const grid = document.querySelector('#watchlater-grid');

@@ -1,6 +1,6 @@
 // Base URL for the JSON server
 const BASE_URL = 'https://vivacious-short-battery.glitch.me/movies'; // Replace with your deployed JSON server URL
-const MOVIES_URL = `${BASE_URL}/movies`; // Endpoint for movies
+const MOVIES_URL = `${BASE_URL}`; // Endpoint for movies
 
 // Select the grid where movies will be displayed
 const grid = document.querySelector('#movies-grid');
