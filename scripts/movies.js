@@ -36,14 +36,16 @@ const fetchMovies = async () => {
     // Generate and display movie cards
     grid.innerHTML = movies
       .map(
-        (movie) => `
+        function (movie) {
+        return `
         <div class="movie-card">
           <h3>${movie.title}</h3>
           <p>${movie.genre} (${movie.releaseYear})</p>
           <p>Likes: ${movie.likes}</p>
           <button class="like-btn" data-id="${movie.id}">Like</button>
           <button class="watch-later-btn" data-id="${movie.id}">Watch Later</button>
-        </div>`
+        </div>`;
+      }
       )
       .join('');
 
